@@ -292,53 +292,6 @@ label {
   visibility: visible;
 }
 
-.features-list {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding-top: 94px;
-  padding-bottom: 94px;
-  margin-left: 0;
-}
-
-.icon-features:hover {
-  fill: var(--accent-color);
-}
-
-.features-list li:not(:first-child) {
-  margin-left: 30px;
-}
-
-.features-list-article {
-  display: flex;
-  align-items: center;
-  padding: 25px 100px;
-  margin-bottom: 30px;
-  width: 270px;
-  height: 120px;
-  background: var(--additional-background-color);
-  border-radius: 4px;
-}
-
-.features-item-title {
-  width: 270px;
-  margin: 0 auto 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--title-text-color);
-}
-
-.features-item-text {
-  width: 270px;
-  padding: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  color: var(--title-text-color);
-}
-
 .overlay {
   display: inline-block;
   content: '';
