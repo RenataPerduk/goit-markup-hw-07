@@ -59,7 +59,11 @@
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 20px;
-  color: $mainBackgroundColor;
+  color: $logoColor;
+}
+
+.thumb-list {
+  display: flex;
 }
 
 .thumb-list__link {
@@ -70,7 +74,7 @@
   height: 44px;
   border-radius: 44px;
   background-color: rgba(255, 255, 255, 0.1);
-  fill: $mainBackgroundColor;
+  fill: $logoColor;
   transition: background-color 250 ms $cubic;
 
   &:hover {
