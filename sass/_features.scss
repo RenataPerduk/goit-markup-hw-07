@@ -7,8 +7,14 @@
   margin-left: 0;
 }
 
-.icon-features:hover {
-  fill: $accentColor;
+.icon-features {
+  fill: currentColor;
+  transition: fill 250ms $cubic;
+
+  &:hover {
+    fill: $accentColor;
+    transition: fill 250ms $cubic;
+  }
 }
 
 .features-list li:not(:first-child) {
